@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Noto+Serif+Display:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    height: 70vh;
+    width: 100%;
+    background-image: url(c.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.content h1 {
+    font-size: 130px;
+    font-weight: 100;
+    color: #DDDDDD;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+    line-height: 160px;
+    position: relative;
+    z-index: 2;
+}
+
+.sidebar {
+    width: 30%;
+    max-width: 550px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: l;
+    backdrop-filter: blur(3px);
+}
+
+.heading h1 {
+    font-size: 100px;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

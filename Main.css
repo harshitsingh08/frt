@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 127%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 100px;
+}
+
+.container:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url("fit.png") no-repeat center;
+    background-size: cover;
+    filter: blur(20px);
+    z-index: -1;
+}
+
+.Day {
+    max-width: 850px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+    padding: 20px 15px;
+    display: grid;
+    flex-direction: column;
+}
+
+.left {
+    background: url("c.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+.shoulder {
+    background: url("shoulder.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+.back {
+    background: url("back.jpeg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+.legs {
+    background: url("leg.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+.core {
+    background: url("core.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+.cardio {
+    background: url("cardio.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+.right {
+    padding: 25px 40px;
+}
+
+h2 {
+    position: relative;
+    padding: 0 0 10px;
+    margin-bottom: 10px;
+}
+
+h2:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-330%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #393E46;
+}
+
+.btn {
+    margin: 5px;
+    width: 40%;
+    padding: 0.5rem 1rem;
+    background-color: #444444;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn:hover {
+    background-color: black;
+}
